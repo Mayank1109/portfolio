@@ -1,0 +1,9 @@
+.btn:hover .icon path {
+  fill: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover .icon1 g {
+  stroke: #ffffff;
+  transition: all 0.3s ease-in-out;
+}

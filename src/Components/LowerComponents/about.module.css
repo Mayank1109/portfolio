@@ -1,0 +1,50 @@
+.outer_about {
+  margin: 0rem;
+  background-color: #1e1e1e;
+  height: 100%;
+  display: flex;
+  margin-left: 0.5rem;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0.5px 1px hsla(0, 2%, 47%, 0.1),
+    0 0 0 1px hsla(230, 13%, 9%, 0.075), 0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
+    0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
+    0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+}
+
+.about_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about_head h3 {
+  font-size: 1.5rem;
+}
+
+.about_head button {
+  background-color: transparent;
+  height: 2.5rem;
+  width: 6rem;
+  font-size: 1.2rem;
+  border: dashed 2px #ee80a0;
+  color: #808384;
+}
+
+.about_head button:hover {
+  border: solid 2px #ee80a0;
+  color: #ffffff;
+  background-color: #8b062c7b;
+  transition: all 0.3s ease-in-out;
+}
+
+.inner_about {
+  margin: auto;
+}
+
+.inner_about p {
+  margin: 0.5rem;
+  text-align: center;
+  color: #808384;
+}

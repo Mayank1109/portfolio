@@ -1,0 +1,17 @@
+.complete {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+}
+
+.upper {
+  width: 97%;
+  height: 50%;
+  margin: 1rem auto 0.25rem auto;
+}
+
+.lower {
+  width: 97%;
+  height: 50%;
+  margin: 0.25rem auto 1rem auto;
+}
