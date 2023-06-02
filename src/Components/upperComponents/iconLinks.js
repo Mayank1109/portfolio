@@ -9,22 +9,30 @@ const IconLinks = () => {
     <div className={classes.icon_outer}>
       <div className={classes.btn_dec}>
         <button className={colorClasses.btn}>
-          <LinkedInIcon />
+          <a href="https://www.linkedin.com/in/maycha1109">
+            <LinkedInIcon />
+          </a>
         </button>
       </div>
       <div className={classes.btn_dec}>
         <button className={colorClasses.btn}>
-          <InstagramIcon />
+          <a href="https://instagram.com/m11since02?igshid=NGExMmI2YTkyZg==">
+            <InstagramIcon />
+          </a>
         </button>
       </div>
       <div className={classes.btn_dec}>
         <button className={colorClasses.btn}>
-          <GithubIcon />
+          <a href="https://github.com/Mayank1109">
+            <GithubIcon />
+          </a>
         </button>
       </div>
       <div className={classes.btn_dec}>
         <button className={colorClasses.btn}>
-          <GmailIcon />
+          <a href="mailTo:maycha1109@gmailcom">
+            <GmailIcon />
+          </a>
         </button>
       </div>
     </div>
