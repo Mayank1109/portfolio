@@ -44,5 +44,6 @@
 @media only screen and (max-width: 800px) {
   [class*="upper_right"] {
     width: 100%;
+    height: 100%;
   }
 }

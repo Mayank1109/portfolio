@@ -2,9 +2,9 @@ import WorkCard from "../../UI/WorkCard";
 import m1 from "../../Assets/1.png";
 import m2 from "../../Assets/2.png";
 import m3 from "../../Assets/3.png";
-import m4 from "../../Assets/4.png";
-import m5 from "../../Assets/5.png";
 import classes from "./work.module.css";
+import appContext from "../app_context";
+import { useContext } from "react";
 
 const projects = [
   {
@@ -19,23 +19,20 @@ const projects = [
     id: "p3",
     src: m3,
   },
-  //   {
-  //     id: "p4",
-  //     src: m4,
-  //   },
-  //   {
-  //     id: "p5",
-  //     src: m5,
-  //   },
 ];
 const Work = () => {
+  const ctx = useContext(appContext);
+
+  const workHandler = () => {
+    ctx.onWorkClick();
+  };
   return (
     <div className={classes.work}>
       <div className={classes.heading}>
         <h3>Works</h3>
-        <h4>
-          <a href="https://github.com/Mayank1109">See All</a>
-        </h4>
+        <div onClick={workHandler}>
+          <h4>See All</h4>
+        </div>
       </div>
       <div className={classes.work_img}>
         {projects.map((pro) => (

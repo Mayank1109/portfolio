@@ -10,7 +10,7 @@
 }
 
 .skills {
-  border-radius: 20px;
+  border-radius: 10px;
   height: 70%;
   display: flex;
   width: 100%;
@@ -84,7 +84,7 @@
   height: auto;
   width: 47%;
   display: flex;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
   justify-content: center;
   align-items: center;
