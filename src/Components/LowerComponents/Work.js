@@ -31,7 +31,9 @@ const Work = () => {
       <div className={classes.heading}>
         <h3>Works</h3>
         <div onClick={workHandler}>
-          <h4>See All</h4>
+          <h4>
+            <a href="https://github.com/Mayank1109">See All</a>
+          </h4>
         </div>
       </div>
       <div className={classes.work_img}>

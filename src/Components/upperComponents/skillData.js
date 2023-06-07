@@ -9,7 +9,17 @@ const SkillData = () => {
         <IconLinks />
       </div>
       <div className={classes.copyright}>
-        <p>This Project is copyright of Mayank Chauhan</p>
+        {/* <p>Work Experience</p> */}
+        <div>
+          <h3>Software Developer Intern</h3>
+          <h4>Noetic LogistieX Pvt. Ltd.</h4>
+          <h5>1/10/2021 - 31/03/2022</h5>
+        </div>
+        <div>
+          <h3>Project Manager Intern</h3>
+          <h4>Tann Mann Foundation - NGO</h4>
+          <h5>10/2022 - 11/2022</h5>
+        </div>
       </div>
     </div>
   );

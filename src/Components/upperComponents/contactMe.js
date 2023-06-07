@@ -12,7 +12,9 @@ const ContactMe = () => {
     <div className={classes.contact}>
       <h1>Feel free to reach out!!</h1>
       <div className={classes.btn_div} onClick={contactHandler}>
-        <button>Contact Me</button>
+        <a href="mailTo:maycha1109@gmailcom">
+          <button>Contact Me</button>
+        </a>
       </div>
     </div>
   );

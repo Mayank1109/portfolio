@@ -84,9 +84,10 @@
   height: auto;
   width: 47%;
   display: flex;
+  flex-direction: column;
   border-radius: 10px;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: #838083;
   background-color: #1e1e1e;
@@ -98,7 +99,23 @@
 }
 
 .copyright p {
+  margin: 1rem 0rem 1rem 0.5rem;
+  width: auto;
+}
+
+.copyright h3 {
+  color: #ffffff;
+  margin: 0.5rem 0.5rem;
+  width: auto;
+}
+
+.copyright h4 {
   margin: auto;
+  width: auto;
+}
+
+.copyright h5 {
+  margin: 0.5rem;
   width: auto;
 }
 

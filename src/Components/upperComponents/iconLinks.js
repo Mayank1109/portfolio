@@ -16,13 +16,6 @@ const IconLinks = () => {
       </div>
       <div className={classes.btn_dec}>
         <button className={colorClasses.btn}>
-          <a href="https://instagram.com/m11since02?igshid=NGExMmI2YTkyZg==">
-            <InstagramIcon />
-          </a>
-        </button>
-      </div>
-      <div className={classes.btn_dec}>
-        <button className={colorClasses.btn}>
           <a href="https://github.com/Mayank1109">
             <GithubIcon />
           </a>

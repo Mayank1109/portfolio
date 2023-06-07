@@ -3,7 +3,7 @@ import GradeCard from "../../UI/gradeCard";
 const education = [
   {
     id: "a1",
-    main: "9.41",
+    main: "9.24",
     desc1: "CGPA",
     desc2: "in B.Tech",
   },

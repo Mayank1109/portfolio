@@ -7,7 +7,7 @@ const About = () => {
         <h3>About</h3>
         <button>
           <a
-            href="https://drive.google.com/file/d/18ea_Q1FBOldccD91WpRmzOaQZEyVBwmo/view?usp=sharing"
+            href="https://drive.google.com/file/d/1VM0sTm2VDdsdf-fFtYQVMjfi6nsoNO1X/view?usp=sharing"
             download
           >
             Resume
